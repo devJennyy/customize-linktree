@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <div className="h-full w-full flex justify-center py-4 bg-[url('img/Background.png')] bg-cover">
+      <div className="h-full w-full flex justify-center py-4 bg-[url('/img/Background.png')] bg-cover">
         <div className="flex flex-col justify-center items-center gap-[30px] h-full w-[450px] bg-[#161A42]/30 rounded-[24px] relative">
           <img
             src="img/Ornament.svg"
