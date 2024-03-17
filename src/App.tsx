@@ -9,16 +9,16 @@ function App() {
 
   return (
     <>
-      <div className="h-full w-full flex justify-center py-4 bg-[url('public/img/Background.png')] bg-cover">
+      <div className="h-full w-full flex justify-center py-4 bg-[url('img/Background.png')] bg-cover">
         <div className="flex flex-col justify-center items-center gap-[30px] h-full w-[450px] bg-[#161A42]/30 rounded-[24px] relative">
           <img
-            src="public/img/Ornament.svg"
+            src="img/Ornament.svg"
             className="absolute top-0 w-full"
           />
           {/* Profile Image */}
           <div className="flex justify-center mt-[-70px]">
             <img
-              src="public/img/Avatar.png"
+              src="img/Avatar.png"
               className="object-cover w-[130px] h-[130px] rounded-full"
             />
           </div>
@@ -51,7 +51,7 @@ function App() {
           {/* Buttons */}
           <div className="flex flex-col justify-center items-center gap-3">
             <button className="text-white font-semibold text-[20px] border-2 w-[350px] h-[64px] border-[#495099] rounded-[16px] flex justify-between items-center px-[20px] hover:bg-[#495099] hover:scale-95 transition-all">
-              <img src="public/icons/Heart.svg" className="w-[18px] ml-[2px]" />
+              <img src="icons/Heart.svg" className="w-[18px] ml-[2px]" />
               <p>Portfolio</p> <BsThreeDots size={18} />
             </button>
             <button className="text-white font-semibold text-[20px] border-2 w-[350px] h-[64px] border-[#495099] rounded-[16px] flex justify-between items-center px-[20px] hover:bg-[#495099] hover:scale-95 transition-all">
@@ -67,7 +67,7 @@ function App() {
           {/* Buy me coffee */}
           <div className="flex flex-col justify-center items-center">
             <img
-              src="public/icons/Coffee.png"
+              src="icons/Coffee.png"
               className="w-[100px] mt-[60px]"
             />
             <p className="text-white font-semibold mt-[-20px]">
