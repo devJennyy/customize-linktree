@@ -1,7 +1,7 @@
 import { BsThreeDots } from 'react-icons/bs'
 import './App.css'
 import { RiLinkedinFill, RiTwitterXFill } from 'react-icons/ri';
-import { FaFacebook, FaFacebookF, FaGithubAlt } from 'react-icons/fa';
+import { FaFacebook, FaGithubAlt } from 'react-icons/fa';
 import { SiInstagram } from 'react-icons/si';
 import { ImWhatsapp } from 'react-icons/im';
 
